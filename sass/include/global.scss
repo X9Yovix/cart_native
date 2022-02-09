@@ -1,0 +1,116 @@
+.header_main {
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px #999;
+}
+
+.countLink:hover {
+  text-decoration: none;
+}
+
+.promoImg {
+  left: 208px;
+  position: absolute;
+  bottom: 134px;
+  width: 53px;
+}
+
+#hidearr {
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+}
+
+.pmqty:hover {
+  text-decoration: none;
+}
+
+
+.posSearch {
+  margin-left: 414px;
+  left: 40%;
+}
+
+//animation titles navbar
+.pullUp1:before {
+  position: absolute;
+  width: 5%;
+  height: 2px;
+  left: 142px;
+  bottom: 0px;
+  content: '';
+  background: black;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+.pullUp1:hover:before {
+  height: 100%;
+  cursor: pointer;
+}
+
+.pullUp2:before {
+  position: absolute;
+  width: 6%;
+  height: 2px;
+  left: 310px;
+  bottom: 0px;
+  content: '';
+  background: black;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+.pullUp2:hover:before {
+  height: 100%;
+  cursor: pointer;
+}
+
+.pullUp3:before {
+  position: absolute;
+  width: 5%;
+  height: 2px;
+  left: 585px;
+  bottom: 0px;
+  content: '';
+  background: black;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+.pullUp3:hover:before {
+  height: 100%;
+  cursor: pointer;
+}
+
+.homelogin {
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  border-radius: 50%;
+
+}
+
+.homeicon {
+  margin-left: 4px;
+  margin-top: 7px;
+  color: white;
+}
+
+.middlelogin{
+  margin-left: 46%;
+    margin-top: 6%;
+}
+
+.descComp {
+  text-decoration: none !important;
+}

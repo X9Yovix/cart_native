@@ -1,0 +1,82 @@
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+    background-color: #eee !important;
+}
+
+[data-theme="dark"] .nav-link{
+    color: white !important;
+}
+[data-theme="dark"] .navbar-brand{
+    background-color: white !important;
+    border-radius: 0 20px;
+}
+[data-theme="dark"] .total_price{
+    background-color: white !important;
+}
+[data-theme="dark"] .owl-nav span{
+    color: white !important;
+}
+[data-theme="dark"] .btn-isotop{
+    color: white !important;
+}
+[data-theme="dark"] .descComp{
+    color: #FFFAFA	 !important;
+}
+
+[data-theme="dark"] .pricedarkmode{
+    color: #27ade2 !important;
+}
+
+
+[data-theme="dark"] .pullUp1:before
+{
+    position: absolute;
+    width: 5%;
+    height: 2px;
+    left: 142px;
+    bottom: 0px;
+    content: '';
+    background: rgb(250, 250, 250);
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+[data-theme="dark"] .pullUp2:before
+{
+    position: absolute;
+    width: 6%;
+    height: 2px;
+    left: 310px;
+    bottom: 0px;
+    content: '';
+    background: rgb(250, 250, 250);
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+
+[data-theme="dark"] .pullUp3:before
+{
+    position: absolute;
+    width: 5%;
+    height: 2px;
+    left: 585px;
+    bottom: 0px;
+    content: '';
+    background: rgb(250, 250, 250);
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
